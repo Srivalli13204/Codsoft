@@ -28,7 +28,7 @@ public class WordCounter {
                 System.exit(1);
             }
         } else {
-            System.out.println("Invalid Choice. Exiting the Program..");
+            System.out.println("Invalid Choice. Exiting the Program.");
             System.exit(1);
         }
         int wordCount = countWords(text);
