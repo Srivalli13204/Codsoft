@@ -30,10 +30,10 @@ public class NumberGame {
                     play = reader.next().toLowerCase();
                 }
                 else if(guess > randNum){
-                    System.out.println("Your Guess is Too High, Try again...");
+                    System.out.println("Your Guess is Too High, Try again..");
                 }
                 else{
-                    System.out.println("Your Guess is Too Low, Try again...");
+                    System.out.println("Your Guess is Too Low, Try again..");
                 }
             }
         }
